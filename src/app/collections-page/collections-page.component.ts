@@ -3,7 +3,6 @@ import { MatCard } from "@angular/material/card";
 import { MatIcon } from "@angular/material/icon";
 import { Router } from "express";
 import { ProductService } from "../../shared/services/product.service";
-import { tap } from "rxjs";
 
 @Component({
   selector: 'app-collections-page',
