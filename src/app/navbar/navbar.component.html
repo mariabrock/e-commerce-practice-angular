@@ -1,13 +1,13 @@
 <mat-toolbar>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-    <mat-icon>menu</mat-icon>
-  </button>
-  <span>SNEAKERS</span>
+  <span class="brand"><img src="./assets/logo.svg" alt=""></span>
+  <button mat-button class="collections" [routerLink]="['/collections']" routerLinkActive="active">Collections</button>
+  <button mat-button class="mens" [routerLink]="['/mens']">Men</button>
+  <button mat-button class="womens" [routerLink]="['/womens']">Women</button>
+  <button mat-button class="about" [routerLink]="['/about']">About</button>
+  <button mat-button class="Contact" [routerLink]="['/contact']">Contact</button>
   <span class="spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-    <mat-icon>favorite</mat-icon>
+  <button mat-icon-button class="icon material-symbols-outlined cart" aria-label="cart icon">
+    <mat-icon>shopping_cart</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>share</mat-icon>
-  </button>
+  <img class="avatar" src="./assets/image-avatar.png" alt="">
 </mat-toolbar>
