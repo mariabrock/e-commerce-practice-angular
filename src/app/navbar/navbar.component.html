@@ -1,6 +1,6 @@
 <mat-toolbar>
-  <span class="brand">sneakers</span>
-  <button mat-button class="collections" [routerLink]="['/collections']">Collections</button>
+  <span class="brand"><img src="./assets/logo.svg" alt=""></span>
+  <button mat-button class="collections" [routerLink]="['/collections']" routerLinkActive="active">Collections</button>
   <button mat-button class="mens" [routerLink]="['/mens']">Men</button>
   <button mat-button class="womens" [routerLink]="['/womens']">Women</button>
   <button mat-button class="about" [routerLink]="['/about']">About</button>
@@ -9,7 +9,5 @@
   <button mat-icon-button class="icon material-symbols-outlined cart" aria-label="cart icon">
     <mat-icon>shopping_cart</mat-icon>
   </button>
-  <button mat-icon-button class="icon material-symbols-outlined user" aria-label="account icon">
-      <mat-icon>account_circle</mat-icon>
-  </button>
+  <img class="avatar" src="./assets/image-avatar.png" alt="">
 </mat-toolbar>
