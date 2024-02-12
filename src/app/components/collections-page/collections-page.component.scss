@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  padding: 1rem;
+}
+
+.collection {
+    margin: 1rem;
+    padding: .5rem;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+.collections-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  margin: 0;
+  padding: .5rem;
+}

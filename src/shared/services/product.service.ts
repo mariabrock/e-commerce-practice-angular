@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, tap } from "rxjs";
+import { BehaviorSubject } from "rxjs";
 import { Product } from "../product";
 
 @Injectable({
@@ -19,7 +19,7 @@ export class ProductService {
       "ordering": 100,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Spring Kickin' Kicks",
@@ -30,7 +30,7 @@ export class ProductService {
       "ordering": 200,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Aamir Solangi",
@@ -41,7 +41,7 @@ export class ProductService {
       "ordering": 300,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Abla Dilmurat",
@@ -52,7 +52,7 @@ export class ProductService {
       "ordering": 400,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adil Eli",
@@ -63,7 +63,7 @@ export class ProductService {
       "ordering": 500,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adile Qadir",
@@ -74,7 +74,7 @@ export class ProductService {
       "ordering": 600,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Abdukerim Ibrahim",
@@ -85,7 +85,7 @@ export class ProductService {
       "ordering": 700,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adil Abro",
@@ -96,7 +96,7 @@ export class ProductService {
       "ordering": 700,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Afonso Vilarchán",
@@ -107,56 +107,44 @@ export class ProductService {
       "ordering": 800,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Mark Schembri",
       "id": "KU4T500C830697CW",
       "description": "Nam laoreet, nunc non suscipit interdum, justo turpis vestibulum massa, non vulputate ex urna at purus. Morbi ultricies consequat ligula posuere eleifend. Vivamus id faucibus velit, id posuere leo. Sed laoreet posuere sapien, ut feugiat nibh gravida at. Ut maximus, libero nec facilisis fringilla, ex sem sollicitudin leo, non congue tortor ligula in eros.",
-      "price": 6.1,
-      "markdown": 123,
+      "price": 683.10,
+      "markdown": 350.00,
       "ordering": 900,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Antía Sixirei",
       "id": "XOF91ZR7MHV1TXRS",
       "description": "Pellentesque massa sem, scelerisque sit amet odio id, cursus tempor urna. Phasellus massa ligula, hendrerit eget efficitur eget, tincidunt in ligula. Morbi finibus dui sed est fringilla ornare. Duis pellentesque ultrices convallis. Morbi ultricies consequat ligula posuere eleifend.",
-      "price": 6.1,
-      "markdown": 123,
+      "price": 150.00,
+      "markdown": 60.99,
       "ordering": 1000,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Aygul Mutellip",
       "id": "FTSNV411G5MKLPDT",
       "description": "Duis commodo orci ut dolor iaculis facilisis. Nam semper gravida nunc, sit amet elementum ipsum. Donec pellentesque ultrices mi, non consectetur eros luctus non. Pellentesque massa sem, scelerisque sit amet odio id, cursus tempor urna.",
-      "price": 6.1,
-      "markdown": 123,
+      "price": 805.00,
+      "markdown": 430.00,
       "ordering": 2000,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
   ]
 
   private products$ = new BehaviorSubject<Product[]>(this.data);
   products = this.products$.asObservable();
 
-  getProducts() {
-    this.products.pipe(
-      tap(data => console.log(data)),
-    )
-      .subscribe( res => {
-        if(!res) {
-          throw (new Error ("There is no data."))
-        } else {
-          return res;
-        }
-      })
-  }
 }

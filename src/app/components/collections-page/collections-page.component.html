@@ -1,0 +1,8 @@
+<div class="collections-container">
+  <mat-card class="collection" *ngFor="let collection of allCollections">
+    <img src="{{ collection.imgURL }}" height="176" width="176" alt="stock image">
+    <div class="info">
+      <h1 class="name">{{ collection.name }}</h1>
+    </div>
+  </mat-card>
+</div>
