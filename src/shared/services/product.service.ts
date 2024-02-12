@@ -19,7 +19,7 @@ export class ProductService {
       "ordering": 100,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Spring Kickin' Kicks",
@@ -30,7 +30,7 @@ export class ProductService {
       "ordering": 200,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Aamir Solangi",
@@ -41,7 +41,7 @@ export class ProductService {
       "ordering": 300,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Abla Dilmurat",
@@ -52,7 +52,7 @@ export class ProductService {
       "ordering": 400,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adil Eli",
@@ -63,7 +63,7 @@ export class ProductService {
       "ordering": 500,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adile Qadir",
@@ -74,7 +74,7 @@ export class ProductService {
       "ordering": 600,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Abdukerim Ibrahim",
@@ -85,7 +85,7 @@ export class ProductService {
       "ordering": 700,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adil Abro",
@@ -96,7 +96,7 @@ export class ProductService {
       "ordering": 700,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Afonso Vilarchán",
@@ -107,7 +107,7 @@ export class ProductService {
       "ordering": 800,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Mark Schembri",
@@ -118,7 +118,7 @@ export class ProductService {
       "ordering": 900,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Antía Sixirei",
@@ -129,7 +129,7 @@ export class ProductService {
       "ordering": 1000,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Aygul Mutellip",
@@ -140,7 +140,7 @@ export class ProductService {
       "ordering": 2000,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
   ]
 

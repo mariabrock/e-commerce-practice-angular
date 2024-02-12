@@ -5,6 +5,8 @@ import { MatIcon } from "@angular/material/icon";
 import { ProductService} from "../../../shared/services/product.service";
 import { Product } from "../../../shared/product";
 import { tap } from "rxjs";
+import { CollectionsService } from "../../../shared/services/collections.service";
+import { Collection } from "../../../shared/collection";
 
 @Component({
   selector: 'app-collections-page',
@@ -19,16 +21,16 @@ import { tap } from "rxjs";
 })
 export class CollectionsPageComponent implements OnInit{
 
-  public productService = inject(ProductService);
+  public collectionsService = inject(CollectionsService);
 
-  allProduct?: Product[] | undefined = [];
+  allCollections?: Collection[] | undefined = [];
 
   ngOnInit() {
-    this.productService.products.pipe(
+    this.collectionsService.collections.pipe(
       tap(data => console.log(data)),
     )
       .subscribe( res => {
-        this.allProduct = res
+        this.allCollections = res
       })
   }
 

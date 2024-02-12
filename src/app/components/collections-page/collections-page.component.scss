@@ -3,16 +3,22 @@
   padding: 1rem;
 }
 
-mat-card {
-  & .colelction {
+.collection {
     margin: 1rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
+    padding: .5rem;
+
+    &:hover {
+      opacity: 1;
+    }
   }
+
+.collections-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
 }
 
-img {
-  height: 50px;
-  width: 50px;
+h1 {
+  margin: 0;
+  padding: .5rem;
 }
