@@ -8,7 +8,7 @@
     padding: .5rem;
 
     &:hover {
-      opacity: 1;
+      cursor: pointer;
     }
   }
 
@@ -21,8 +21,4 @@
 h1 {
   margin: 0;
   padding: .5rem;
-}
-
-mat-card {
-  cursor: pointer;
 }

@@ -10,6 +10,10 @@ export const routes: Routes = [
     component: CollectionsPageComponent
   },
   {
+    path: 'collections',
+    component: CollectionsPageComponent
+  },
+  {
     path: 'mens',
     component: MensPageComponent
   },
