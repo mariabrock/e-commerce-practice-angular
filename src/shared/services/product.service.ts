@@ -19,10 +19,11 @@ export class ProductService {
       "ordering": 100,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
-      "name": "Spring Kickin' Kicks",
+      "name": "Spring Edition Kicks",
       "id": "ENTOCR13RSCLZ6KU",
       "description": "Aliquam sollicitudin ante ligula, eget malesuada nibh efficitur et. Pellentesque massa sem, scelerisque sit amet odio id, cursus tempor urna. Etiam congue dignissim volutpat. Vestibulum pharetra libero et velit gravida euismod.",
       "price": 350.00,
@@ -30,10 +31,11 @@ export class ProductService {
       "ordering": 200,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-2.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-2-thumbnail.jpg"
     },
     {
-      "name": "Aamir Solangi",
+      "name": "Winter Boots",
       "id": "IAKPO3R4761JDRVG",
       "description": "Vestibulum pharetra libero et velit gravida euismod. Quisque mauris ligula, efficitur porttitor sodales ac, lacinia non ex. Fusce eu ultrices elit, vel posuere neque.",
       "price": 450.00,
@@ -41,10 +43,11 @@ export class ProductService {
       "ordering": 300,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-3.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-3-thumbnail.jpg"
     },
     {
-      "name": "Abla Dilmurat",
+      "name": "Highest Heels",
       "id": "5ZVOEPMJUI4MB4EN",
       "description": "Donec lobortis eleifend condimentum. Morbi ac tellus erat.",
       "price": 150.00,
@@ -52,9 +55,10 @@ export class ProductService {
       "ordering": 400,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-4.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-4-thumbnail.jpg"
     },
-    {
+    /*{
       "name": "Adil Eli",
       "id": "6VTI8X6LL0MMPJCC",
       "description": "Vivamus id faucibus velit, id posuere leo. Morbi vitae nisi lacinia, laoreet lorem nec, egestas orci. Suspendisse potenti.",
@@ -63,7 +67,8 @@ export class ProductService {
       "ordering": 500,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adile Qadir",
@@ -74,7 +79,8 @@ export class ProductService {
       "ordering": 600,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Abdukerim Ibrahim",
@@ -85,7 +91,8 @@ export class ProductService {
       "ordering": 700,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Adil Abro",
@@ -96,7 +103,8 @@ export class ProductService {
       "ordering": 700,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Afonso Vilarchán",
@@ -107,7 +115,8 @@ export class ProductService {
       "ordering": 800,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Mark Schembri",
@@ -118,7 +127,8 @@ export class ProductService {
       "ordering": 900,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Antía Sixirei",
@@ -129,7 +139,8 @@ export class ProductService {
       "ordering": 1000,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
     },
     {
       "name": "Aygul Mutellip",
@@ -140,8 +151,9 @@ export class ProductService {
       "ordering": 2000,
       "quantity": 1,
       "inCart" : false,
-      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg"
-    },
+      "imgURL": "./assets/FEMentor/image-product-1-thumbnail.jpg",
+      "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
+    },*/
   ]
 
   private products$ = new BehaviorSubject<Product[]>(this.data);

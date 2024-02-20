@@ -1,4 +1,28 @@
 <div class="container">
-  <app-light-gallery></app-light-gallery>
-  <ecomm-product-view></ecomm-product-view>
+  <div class="image-view">
+    <ecomm-product-view></ecomm-product-view>
+  </div>
+
+  <div class="details-container">
+    <h5>SNEAKER COMPANY</h5>
+    <h1>product.name</h1>
+    <p>description</p>
+    <h1>sale</h1> <h5>percentage</h5>
+    <h5>price</h5>
+
+    <div class="add-to-cart">
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <!--      <mat-label>Amount</mat-label>-->
+          <span><mat-icon matPrefix>remove</mat-icon></span>
+          <input matInput placeholder="0">
+          <span><mat-icon matSuffix>add</mat-icon></span>
+        </mat-form-field>
+      </form>
+      <div>
+        <button mat-raised-button color="primary">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
 </div>

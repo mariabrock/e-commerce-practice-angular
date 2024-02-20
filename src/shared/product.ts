@@ -8,4 +8,5 @@ export interface Product {
   quantity: number;
   inCart: boolean;
   imgURL: string;
+  thumbnail: string;
 }
