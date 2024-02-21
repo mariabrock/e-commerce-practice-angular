@@ -6,6 +6,7 @@ export interface Product {
   markdown: number;
   ordering: number;
   quantity: number;
+  type: string;
   inCart: boolean;
   imgURL: string;
   thumbnail: string;

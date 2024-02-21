@@ -18,6 +18,7 @@ export class ProductService {
       "markdown": 125.00,
       "ordering": 100,
       "quantity": 1,
+      "type": "mens",
       "inCart" : false,
       "imgURL": "./assets/FEMentor/image-product-1.jpg",
       "thumbnail": "./assets/FEMentor/image-product-1-thumbnail.jpg"
@@ -30,6 +31,7 @@ export class ProductService {
       "markdown": 200.00,
       "ordering": 200,
       "quantity": 1,
+      "type": "womens",
       "inCart" : false,
       "imgURL": "./assets/FEMentor/image-product-2.jpg",
       "thumbnail": "./assets/FEMentor/image-product-2-thumbnail.jpg"
@@ -42,6 +44,7 @@ export class ProductService {
       "markdown": 250.00,
       "ordering": 300,
       "quantity": 1,
+      "type": "mens",
       "inCart" : false,
       "imgURL": "./assets/FEMentor/image-product-3.jpg",
       "thumbnail": "./assets/FEMentor/image-product-3-thumbnail.jpg"
@@ -54,6 +57,7 @@ export class ProductService {
       "markdown": 70.00,
       "ordering": 400,
       "quantity": 1,
+      "type": "womens",
       "inCart" : false,
       "imgURL": "./assets/FEMentor/image-product-4.jpg",
       "thumbnail": "./assets/FEMentor/image-product-4-thumbnail.jpg"
