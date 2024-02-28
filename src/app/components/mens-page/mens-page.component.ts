@@ -19,7 +19,7 @@ import { Product } from "../../../shared/product";
 })
 export class MensPageComponent implements OnInit {
 
-  // mensCollections?: Product[] | undefined = [];
+  items: Product[] = [];
 
   get products(): Observable<Product[]> {
     return this.productService.products;
@@ -29,9 +29,15 @@ export class MensPageComponent implements OnInit {
 
   ngOnInit() {
     this.products.pipe(
-      tap(data => console.log(data)),
-      filter((item) => item.type === 'mens')
-    ).subscribe((item) => console.log(item))
+      tap(data => console.log(data.type)),
+      // filter((data) => data.type === 'mens')
+    ).subscribe(res => {
+        res = this.items
+      console.log(this.items)
+
+    }
+
+    )
   }
 
 }
