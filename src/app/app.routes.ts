@@ -3,15 +3,16 @@ import { CollectionsPageComponent } from "./components/collections-page/collecti
 import { ProductComponent } from "./components/product/product.component";
 import { MensPageComponent } from "./components/mens-page/mens-page.component";
 import { WomensPageComponent } from "./components/womens-page/womens-page.component";
+import { AppComponent } from "./app.component";
 
 export const routes: Routes = [
   {
     path: '',
-    component: CollectionsPageComponent
+    component: CollectionsPageComponent,
   },
   {
     path: 'collections',
-    component: CollectionsPageComponent
+    component: CollectionsPageComponent,
   },
   {
     path: 'mens',
@@ -22,12 +23,16 @@ export const routes: Routes = [
     component: WomensPageComponent
   },
   {
-    path: 'product',
+    path: 'product/:id',
     component: ProductComponent
   },
+  { path: '', redirectTo: 'collections', pathMatch: 'full'},
   {
     path: '**',
     pathMatch: 'full',
     redirectTo: 'collections'
   }
 ];
+
+
+
