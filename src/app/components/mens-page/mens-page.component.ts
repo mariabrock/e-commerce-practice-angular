@@ -29,7 +29,9 @@ export class MensPageComponent implements OnInit {
 
   ngOnInit() {
     this.products.pipe(
-      tap(data => console.log(data.type)),
+      tap(data => console.log(data.map(res => {
+        res.type
+      }))),
       // filter((data) => data.type === 'mens')
     ).subscribe(res => {
         res = this.items

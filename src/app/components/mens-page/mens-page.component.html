@@ -1,8 +1,8 @@
 <div class="container">
-  <mat-card class="collection" *ngFor="let prod of product" [routerLink]="['/product', prod.id]">
-    <img src="{{ prod.imgURL }}" height="176" width="176" alt="stock image">
+  <mat-card class="collection" *ngFor="let item of items" [routerLink]="['/product', item.id]">
+    <img src="{{ item.imgURL }}" height="176" width="176" alt="stock image">
     <div class="info">
-      <h5 class="name">{{ prod.name }}</h5>
+      <h5 class="name">{{ item.name }}</h5>
     </div>
   </mat-card>
 </div>
