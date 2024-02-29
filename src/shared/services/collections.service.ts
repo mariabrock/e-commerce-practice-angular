@@ -20,13 +20,13 @@ export class CollectionsService {
       "name": "Men's Collection",
       "id": "mens",
       "imgURL": "./assets/images/mens-collection.jpg",
-      "endpoint": "mens"
+      "endpoint": "men"
     },
     {
       "name": "Women's Collection",
       "id": "womens",
       "imgURL": "./assets/images/womens-collection.jpg",
-      "endpoint": "womens"
+      "endpoint": "women"
     },
     // {
     //   "name": "Sale",
