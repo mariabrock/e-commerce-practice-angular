@@ -1,1 +1,9 @@
-<p>womens-page works!</p>
+<div class="container">
+  <mat-card class="collection" *ngFor="let item of items | async" [routerLink]="['/product', item.id]">
+    <img src="{{ item.imgURL }}" height="176" width="176" alt="stock image">
+    <div class="info">
+      <h5 class="name">{{ item.name }}</h5>
+    </div>
+  </mat-card>
+</div>
+
