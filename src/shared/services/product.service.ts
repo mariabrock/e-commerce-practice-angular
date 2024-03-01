@@ -1,11 +1,16 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from "rxjs";
+import { inject, Injectable } from '@angular/core';
+import { BehaviorSubject, catchError, Observable, of, Subscription, tap, throwError } from "rxjs";
 import { Product } from "../product";
+import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
+
+  private productsUrl = 'api/products';
+
+  private http = inject(HttpClient);
 
   constructor() { }
 
@@ -164,5 +169,26 @@ export class ProductService {
 
   private products$ = new BehaviorSubject<Product[]>(this.data);
   products = this.products$.asObservable();
+
+  getProduct(id: string) {
+    return this.http.get<Product[]>(this.productsUrl)
+      .pipe(
+        tap(data => console.log(data)),
+        catchError(this.handleError)
+      );
+
+  }
+
+  private handleError(err: HttpErrorResponse): Observable<never> {
+    let errorMessage: string;
+    if (err.error instanceof ErrorEvent) {
+      // A client-side or network error occurred. Handle it accordingly.
+      errorMessage = `An error occurred: ${err.error.message}`;
+    } else {
+      errorMessage = `Backend returned code ${err.status}: ${err.message}`;
+    }
+    console.error(err);
+    return throwError(() => errorMessage);
+  }
 
 }
